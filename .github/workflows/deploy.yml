@@ -49,5 +49,5 @@ jobs:
       - name: Upload to S3
         run: aws s3 cp --region us-east-2 ./BE/issue_tracker/issue-tracker.zip s3://lambda-deploy-test-joaquin/$PROJECT_NAME/issue-tracker.zip
         
-      - name: Code Deploy
-        run: aws deploy create-deployment --application-name $APPLICATION_NAME --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name dev --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/issue-tracker.zip
+      # - name: Code Deploy
+      #   run: aws deploy create-deployment --application-name $APPLICATION_NAME --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name dev --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/issue-tracker.zip
