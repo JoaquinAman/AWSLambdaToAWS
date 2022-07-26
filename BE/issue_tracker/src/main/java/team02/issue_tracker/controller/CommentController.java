@@ -29,7 +29,7 @@ public class CommentController {
         return ApiResult.ok();
     }
 
-    @ApiOperation(value = "코멘트 수정", notes = "코멘트를 수정합니다.")
+    @ApiOperation(value = "코멘트 수정", notes = "코멘트를 수정합니다.") 
     @PatchMapping("/{commentId}")
     public ApiResult<String> modifyComment(@PathVariable Long commentId, @RequestBody CommentRequest commentRequest) {
         commentService.modifyComment(commentId, commentRequest);
