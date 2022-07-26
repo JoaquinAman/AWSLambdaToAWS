@@ -9,7 +9,7 @@
 - 👉[Issue tracker Service Flow](https://github.com/Sonjh1306/issue-tracker/wiki/%5BBE%5D-Issue-tracker-Service-Flow)
 - 👉배포 주소 : http://www.sionn.net
 
-## 팀 소개 (TEAM 2)
+## 팀 소개 (TEAM 2) 
 
 |`BE`|`iOS`|`FE`|
 |---|---|---|
