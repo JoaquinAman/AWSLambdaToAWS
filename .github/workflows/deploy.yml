@@ -2,7 +2,7 @@ name: Deploy Spring boot to Amazon EC2
 
 env:
   APPLICATION_NAME: issue-tracker
-  S3_BUCKET_NAME: shion-deploy
+  S3_BUCKET_NAME: lambda-deploy-test-joaquin
   PROJECT_NAME: issue-tracker
 
 on:
